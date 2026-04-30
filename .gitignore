@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+
+# Editor
+.vscode/
+.idea/
+
+# Build / temp
+/images-opt/
+
+# Unused / duplicate image files (kept on disk for archival, not deployed)
+images/*BEZ-2.jpg
+images/*-bez.jpg
+images/*-blade.jpg
+images/testere-detay.jpg
+
+# Logs
+*.log
+
+# Node (if added later)
+node_modules/
+package-lock.json
