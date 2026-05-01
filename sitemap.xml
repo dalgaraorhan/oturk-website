@@ -1,13 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/0.9">
   <url>
-    <loc>https://oturktestere.com/</loc>
+    <loc>https://oturktestere.com.tr/</loc>
+    <lastmod>2026-05-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://oturktestere.com.tr/images/og-image.jpg</image:loc>
+      <image:title>OTURK Budama Testereleri — İnce, orta ve kalın diş seçenekleri</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://oturktestere.com.tr/images/orta-sapli.jpg</image:loc>
+      <image:title>OTURK Orta Diş Budama Testeresi 250 mm</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://oturktestere.com.tr/images/kalin-sapli.jpg</image:loc>
+      <image:title>OTURK Kalın Diş Budama Testeresi 250 mm</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://oturktestere.com.tr/images/ince-sapli.jpg</image:loc>
+      <image:title>OTURK İnce Diş Budama Testeresi 250 mm</image:title>
+    </image:image>
   </url>
   <url>
-    <loc>https://oturktestere.com/katalog.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
+    <loc>https://oturktestere.com.tr/katalog-2025.pdf</loc>
+    <lastmod>2026-05-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>

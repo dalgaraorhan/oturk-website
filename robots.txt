@@ -1,4 +1,9 @@
 User-agent: *
 Allow: /
+Disallow: /.git/
+Disallow: /.github/
 
-Sitemap: https://oturktestere.com/sitemap.xml
+# Crawl-delay for bots that respect it
+Crawl-delay: 1
+
+Sitemap: https://oturktestere.com.tr/sitemap.xml

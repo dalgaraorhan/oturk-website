@@ -251,26 +251,107 @@ button { font: inherit; cursor: pointer; border: 0; background: none; }
 .hero-links a i { font-style: normal; display: inline-block; margin-left: 2px; transition: transform .2s; }
 .hero-links a:hover i { transform: translateX(2px); }
 
-/* Clean hero — minimal tagline above cinematic image */
+/* Clean hero — catalog content above cinematic image */
 .hero--clean {
   padding: 36px 8px 0;
   text-align: center;
 }
 .hero--clean .hero-text {
-  max-width: 720px;
+  max-width: 880px;
   margin: 0 auto 36px;
+}
+.hero--clean .hero-eyebrow {
+  margin: 0 0 14px;
+  color: var(--brand);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 .hero--clean .hero-headline {
   font-size: clamp(44px, 6.4vw, 80px);
   letter-spacing: -0.035em;
   line-height: 1.04;
-  margin: 0 0 12px;
+  margin: 0 0 18px;
 }
 .hero--clean .hero-tagline {
-  margin: 0 auto 22px;
+  margin: 0 auto 28px;
   color: var(--ink-2);
+  font-size: 18px;
+  line-height: 1.55;
+  max-width: 700px;
 }
 .hero--clean .hero-links { margin-top: 0; }
+
+/* PDF download button in hero */
+.hero-actions {
+  margin: 0 auto 28px;
+  display: flex;
+  justify-content: center;
+}
+.hero-pdf-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 26px;
+  background: var(--brand);
+  color: #fff;
+  border-radius: 16px;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  box-shadow: 0 12px 32px -12px rgba(19,66,134,.4);
+  transition: transform .2s, box-shadow .2s, background .2s;
+}
+.hero-pdf-btn:hover {
+  background: var(--brand-strong);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 18px 40px -14px rgba(19,66,134,.5);
+}
+.hero-pdf-btn svg {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+}
+.hero-pdf-btn span {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  text-align: left;
+}
+.hero-pdf-btn small {
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.78;
+  letter-spacing: 0;
+}
+
+/* Quick jump pills */
+.hero-quick-jump {
+  display: inline-flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 10px;
+  background: var(--bg-alt);
+  border-radius: 999px;
+}
+.hero-quick-jump a {
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--ink);
+  transition: background .2s, color .2s;
+  text-decoration: none;
+}
+.hero-quick-jump a:hover {
+  background: #fff;
+  color: var(--brand);
+}
 
 .hero-stage {
   position: relative;
